@@ -1,0 +1,12 @@
+# env files
+.env
+.env.*
+*.env
+
+# secrets
+firebase-service-account.json
+
+# python
+.venv/
+__pycache__/
+*.pyc
