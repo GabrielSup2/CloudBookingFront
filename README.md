@@ -26,13 +26,13 @@ Atualmente, o **back-end, o banco de dados nuvem e a infraestrutura de CI/CD** e
 A aplicação segue o seguinte modelo arquitetural:
 
 Client (Front-end)
-        ↓
+        →
 API Layer (Rotas FastAPI)
-        ↓
+        →
 Service Layer (Regras de Negócio e Anti-Conflito)
-        ↓
+        →
 Repository Layer (Acesso a Dados Otimizado)
-        ↓
+        →
 Cloud Database (Firebase Firestore)
 
 Princípios adotados:
@@ -100,7 +100,7 @@ Em desenvolvimento (Interface do usuário consumirá essa API)
 
 ---
 
-# � Segurança
+# 🔐 Segurança
 
 ## ✔ Status: Implementado
 
@@ -136,7 +136,7 @@ Planejado:
 
 ---
 
-# � Objetivo Técnico
+# 🎯 Objetivo Técnico
 
 Demonstrar a construção de uma aplicação moderna baseada em:
 
