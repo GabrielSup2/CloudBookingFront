@@ -25,5 +25,9 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run Pytest
+      env:
+        JWT_SECRET: "dummy_secret_for_testing"
+        FIREBASE_PROJECT_ID: "dummy_project"
+        FIREBASE_CREDENTIALS_JSON_PATH: "/tmp/dummy.json"
       run: |
         pytest tests/ -v
